@@ -1,5 +1,7 @@
 . ./config.sh
 
+mkdir -p BUILD
+
 # Compile lib
 (cd LIB; ./makeit.sh)
 
